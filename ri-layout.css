@@ -1,0 +1,39 @@
+/* line 1, C:/aegnis/RI/Page-layout/ri-layout.scss */
+html {
+  height: 100%; }
+
+/* line 4, C:/aegnis/RI/Page-layout/ri-layout.scss */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px; }
+
+/* line 13, C:/aegnis/RI/Page-layout/ri-layout.scss */
+.ri-wrap {
+  padding: 0 15px; }
+
+/* line 16, C:/aegnis/RI/Page-layout/ri-layout.scss */
+.ri-head {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  flex-shrink: 0;
+  background: linear-gradient(50deg, #1e8c07, #69df4d, #085e2d);
+  color: #fff; }
+
+/* line 24, C:/aegnis/RI/Page-layout/ri-layout.scss */
+.ri-main {
+  flex-grow: 1;
+  overflow: auto;
+  min-height: 2em; }
+
+/* line 29, C:/aegnis/RI/Page-layout/ri-layout.scss */
+.ri-foot {
+  flex-shrink: 0;
+  background: linear-gradient(50deg, #1e8c07, #69df4d, #085e2d);
+  color: #fff; }
+
+/*# sourceMappingURL=ri-layout.css.map */

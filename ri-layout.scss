@@ -1,0 +1,34 @@
+html {
+    height: 100%;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.ri {
+    &-wrap {
+        padding: 0 15px;
+    }
+    &-head {
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+        flex-shrink: 0;
+        background: linear-gradient(50deg,  #1e8c07, #69df4d, #085e2d);
+        color: #fff;
+    }
+    &-main {
+        flex-grow: 1;
+        overflow: auto;
+        min-height: 2em;
+    }
+    &-foot {
+        flex-shrink: 0;
+        background: linear-gradient(50deg,  #1e8c07, #69df4d, #085e2d);
+        color: #fff;
+    }
+}
