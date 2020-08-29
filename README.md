@@ -1,4 +1,4 @@
-# hjolda-responsive-items
+# hjolda-page-layout
 
 Page layout with sticky header and footer of any height allways at the bottom.
 
